@@ -1,4 +1,3 @@
-from re import A
 import setuptools
 
 with open("README.md", 'r', encoding='utf-8') as f:
@@ -7,8 +6,9 @@ with open("README.md", 'r', encoding='utf-8') as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "IPYNBrenderer"
-AUTHOR_USER_NAME = "c17hawke"
+AUTHOR_USER_NAME = "GaneshKannayiram"
 SRC_REPO = "IPYNBrenderer"
+AUTHOR_EMAIL = "ganezz.k@gmail.com"
 
 setuptools.setup(
     name=SRC_REPO,
@@ -18,7 +18,7 @@ setuptools.setup(
     description="A small python package",
     long_description=long_description,
     long_description_content="text/markdown",
-    url=f"https://.github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",        
     },
